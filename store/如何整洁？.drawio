@@ -128,6 +128,9 @@
         <mxCell id="K8nCfvD-4OK8LSdc0ZEh-112" parent="K8nCfvD-4OK8LSdc0ZEh-46" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" value="地垫" vertex="1">
           <mxGeometry height="30" width="60" x="650" y="330" as="geometry" />
         </mxCell>
+        <mxCell id="K8nCfvD-4OK8LSdc0ZEh-113" parent="K8nCfvD-4OK8LSdc0ZEh-46" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;1. 观察动线，看是否合理&lt;/p&gt;&lt;p&gt;2.&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="1030" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
