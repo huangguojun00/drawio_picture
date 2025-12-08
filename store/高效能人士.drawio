@@ -4,11 +4,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HwKs4THXp137ieDYD3co-17" edge="1" parent="1" source="HwKs4THXp137ieDYD3co-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HwKs4THXp137ieDYD3co-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HwKs4THXp137ieDYD3co-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="积极主动" vertex="1">
           <mxGeometry height="60" width="120" x="70" y="120" as="geometry" />
         </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-19" edge="1" parent="1" source="HwKs4THXp137ieDYD3co-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HwKs4THXp137ieDYD3co-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HwKs4THXp137ieDYD3co-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="以终为始" vertex="1">
           <mxGeometry height="60" width="120" x="70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-21" edge="1" parent="1" source="HwKs4THXp137ieDYD3co-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HwKs4THXp137ieDYD3co-20" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HwKs4THXp137ieDYD3co-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="要事第一" vertex="1">
           <mxGeometry height="60" width="120" x="70" y="300" as="geometry" />
@@ -30,6 +39,15 @@
         </mxCell>
         <mxCell id="HwKs4THXp137ieDYD3co-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="不断更新" vertex="1">
           <mxGeometry height="60" width="120" x="280" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="转变思维" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="想结果" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="工作不是要事，多数是重要紧急，个人成长才是重要不紧急" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
