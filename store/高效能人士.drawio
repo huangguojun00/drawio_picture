@@ -4,6 +4,33 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HwKs4THXp137ieDYD3co-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="积极主动" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="以终为始" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="要事第一" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="个人" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="向外" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="双赢思维" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="知彼知己" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="统筹综效" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HwKs4THXp137ieDYD3co-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="不断更新" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="460" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
