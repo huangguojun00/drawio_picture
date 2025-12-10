@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.6">
+  <diagram name="第 1 页" id="Kag1kVr7VeuNjUqnHMqF">
+    <mxGraphModel dx="2838" dy="2436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-3" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="我妈通知我" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-5" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-7" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-19" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hYy4pvhD6JiqqiRLCypr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-23" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="hYy4pvhD6JiqqiRLCypr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="我烦躁，说话不好听" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="坐高铁回去" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-9" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="如何回家开车要6个小时" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-13" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="如何回家开车要6个小时" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-30" y="810" as="sourcePoint" />
+            <mxPoint x="1630" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="事实是什么？" vertex="1">
+          <mxGeometry height="90" width="150" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="累" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="车有点问题，约了周四去店里，要改期" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-16" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.083;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="hYy4pvhD6JiqqiRLCypr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="早上我妈和我妹妹在争要不要给我表姐贺喜" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="要请假" vertex="1">
+          <mxGeometry height="60" width="120" x="-10" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="理论是什么？" vertex="1">
+          <mxGeometry height="30" width="60" x="10" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. 不陷入情绪。&lt;div&gt;2.一念转境。&lt;/div&gt;&lt;div&gt;3.这种事情以后也会再发生，形成一个sop&lt;/div&gt;&lt;div&gt;4.更坦然的面对生活中的变化&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="410" x="130" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="830" y="1050" as="sourcePoint" />
+            <mxPoint x="830" y="-54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-29" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="发生事情？" vertex="1">
+          <mxGeometry height="60" width="120" x="1090" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-31" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-32" connectable="0" parent="hYy4pvhD6JiqqiRLCypr-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.103" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-34" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="叔叔舅舅这种亲的？" vertex="1">
+          <mxGeometry height="80" width="80" x="1110" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-36" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-30" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="没有特殊情况 请假回去！" vertex="1">
+          <mxGeometry height="60" width="120" x="1090" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-33" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="不回去，帮我爸妈买票" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-38" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-39" connectable="0" parent="hYy4pvhD6JiqqiRLCypr-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="能" vertex="1">
+          <mxGeometry relative="1" x="-0.2646" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-41" edge="1" parent="1" source="hYy4pvhD6JiqqiRLCypr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hYy4pvhD6JiqqiRLCypr-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="能否开车？" vertex="1">
+          <mxGeometry height="80" width="80" x="1110" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-37" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="收拾洗漱用品开车回去" vertex="1">
+          <mxGeometry height="60" width="120" x="1090" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-40" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="看智行火车票，买票" vertex="1">
+          <mxGeometry height="60" width="120" x="1250" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-42" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;1. 看不惯的行为，对我没有影响，或者没有什么很大的影响，就闭嘴，他们的交往方式就是这样&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="450" x="1030" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="转念" vertex="1">
+          <mxGeometry height="30" width="60" x="1020" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="hYy4pvhD6JiqqiRLCypr-44" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;1. 可以回去见见很久没见的亲人&lt;br&gt;2. 可以看看家里的风景&lt;br&gt;3. 给自己心灵放个假&lt;br&gt;4. 车晚点修也没啥关系，影响不大。&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="120" width="550" x="1070" y="1020" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
