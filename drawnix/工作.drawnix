@@ -1,0 +1,547 @@
+{
+  "type": "drawnix",
+  "version": 1,
+  "source": "web",
+  "elements": [
+    {
+      "id": "BDYja",
+      "type": "mind",
+      "data": {
+        "topic": {
+          "children": [
+            {
+              "text": "介绍"
+            }
+          ],
+          "type": "paragraph"
+        }
+      },
+      "children": [
+        {
+          "id": "DyMWi",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "业务"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "ztjje",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "账单体系"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "aABAm",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "内容"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "CdNwm",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "报价"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "Nttxt",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "账单"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "GCRyy",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "挑战"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "NaGze",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "数据量大，每天有5000万单，一亿数据"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "MeBwZ",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "分库分表"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "MGdEJ",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "数据不均衡"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "KenCS",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "大网点指定路由"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "EwPXh",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "BI报表的推送"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "APRWR",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "缓存，报价，人员信息缓存"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "shCHm",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "实时性怎么保证？"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "pTtcp",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "查询？前端分片，分批"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "ebBMz",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "怎么查的"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "txhQw",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "TIDB 目前公司没有"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "SDSrP",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "人员信息模块"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "dxWBW",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "对接中台，人员信息的管理"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "hnGMf",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "APP功能"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "pMQTn",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "保险模块"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "kbcFA",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "对接保险公司"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "KPyBJ",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "保单记录"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "tRkWB",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "账单"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "kCSBm",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "线上扣款"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eBNFB",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "技术"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "dHBPD",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "APP接口异常超时的JVM优化"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            },
+            {
+              "id": "SEwWA",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "动态线程池的开发"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            },
+            {
+              "id": "BTFsb",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "消息触达模块的建设"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "ZPWrH",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "协同"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "WmKaz",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "跨多部门协同"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "pHmTJ",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "拦截系统对接多个电商平台"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "DSHzt",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "yHnne",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "任务排期"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "layout": "right",
+      "points": [
+        [
+          -908.2486151102989,
+          -293.94907796134817
+        ]
+      ]
+    }
+  ],
+  "viewport": {
+    "zoom": 1.0375698324022347,
+    "origination": [
+      -1258.1045106566119,
+      -881.2339552056342
+    ]
+  }
+}
