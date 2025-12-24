@@ -1,0 +1,129 @@
+{
+  "type": "drawnix",
+  "version": 1,
+  "source": "web",
+  "elements": [
+    {
+      "id": "xYThk",
+      "type": "mind",
+      "data": {
+        "topic": {
+          "children": [
+            {
+              "text": "精力管理"
+            }
+          ],
+          "type": "paragraph"
+        }
+      },
+      "children": [
+        {
+          "id": "DGhQW",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "体力"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "WKwNp",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "提升自己的体力"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "JSYpM",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "1. 坚持运动，先从20分钟开始"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "mhkiN",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "JdPdY",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "情绪"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": []
+        },
+        {
+          "id": "bBNMz",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": []
+        }
+      ],
+      "layout": "right",
+      "points": [
+        [
+          -554.8533260349636,
+          -590.355681604258
+        ]
+      ]
+    }
+  ],
+  "viewport": {
+    "zoom": 0.9278455284552846,
+    "origination": [
+      -1070.9913326067053,
+      -809.3529433786282
+    ]
+  }
+}
