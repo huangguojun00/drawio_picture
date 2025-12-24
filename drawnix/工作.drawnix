@@ -134,44 +134,28 @@
                           },
                           "children": [
                             {
-                              "id": "MGdEJ",
+                              "id": "EFAWb",
                               "type": "mind_child",
                               "data": {
                                 "topic": {
                                   "children": [
                                     {
-                                      "text": "数据不均衡"
+                                      "text": "网点编码分库"
                                     }
                                   ],
                                   "type": "paragraph"
                                 }
                               },
-                              "children": [
-                                {
-                                  "id": "KenCS",
-                                  "type": "mind_child",
-                                  "data": {
-                                    "topic": {
-                                      "children": [
-                                        {
-                                          "text": "大网点指定路由"
-                                        }
-                                      ],
-                                      "type": "paragraph"
-                                    }
-                                  },
-                                  "children": []
-                                }
-                              ]
+                              "children": []
                             },
                             {
-                              "id": "EwPXh",
+                              "id": "AtkYB",
                               "type": "mind_child",
                               "data": {
                                 "topic": {
                                   "children": [
                                     {
-                                      "text": "BI报表的推送"
+                                      "text": "6个库，按网点编码分库，大网点导致数据不平衡的，指定到新库去，一个网点一个表，其他的分到一个库里的用一个表。"
                                     }
                                   ],
                                   "type": "paragraph"
@@ -196,19 +180,235 @@
                           },
                           "children": [
                             {
-                              "id": "shCHm",
+                              "id": "wdkTE",
                               "type": "mind_child",
                               "data": {
                                 "topic": {
                                   "children": [
                                     {
-                                      "text": "实时性怎么保证？"
+                                      "text": "二级缓存"
                                     }
                                   ],
                                   "type": "paragraph"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "id": "DWsHB",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "本地cache"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "SReAY",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "人员信息"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "fXchB",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "10min"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "MQWnE",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "结算规则"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "jwRKB",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "报价"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "trMGn",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "30min"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "JReyH",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "根据修改时间，查询出30s内修改的报价，删除本地缓存"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "EQtZd",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "redis"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "FxYzi",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "由页面修改数据时触发发送延迟消息到RocketMQ"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "QAXyp",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "消费数据以后去删除redis缓存"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "dGPGF",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "问题"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "txMbQ",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "缓存击穿"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "CPdBd",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "缓存雪崩"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "rTEpp",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "缓存穿透"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             }
                           ]
                         },
@@ -259,6 +459,21 @@
                           "children": []
                         }
                       ]
+                    },
+                    {
+                      "id": "rhXzD",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "下载中心设计"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
                     }
                   ]
                 }
@@ -535,13 +750,469 @@
           -293.94907796134817
         ]
       ]
+    },
+    {
+      "id": "Psnbe",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "本地缓存"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          1417.5694560022766,
+          -931.1404570697564
+        ],
+        [
+          1618.033859069089,
+          -891.2631295779711
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "TbyKk",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0.5,
+          1
+        ],
+        "boundId": "Psnbe"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0.5,
+          0
+        ],
+        "boundId": "awjsh"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          1343.203629058136,
+          -870.7855830281353
+        ],
+        [
+          1343.203629058136,
+          -770.7855830281353
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "awjsh",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "redis"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          1417.5694560022766,
+          -827.9071602460982
+        ],
+        [
+          1618.033859069089,
+          -788.0298327543129
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "saSBf",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0.5,
+          1
+        ],
+        "boundId": "awjsh"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0.5,
+          0
+        ],
+        "boundId": "bGJyp"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          1343.203629058136,
+          -778.329942283338
+        ],
+        [
+          1343.203629058136,
+          -678.329942283338
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "bGJyp",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "数据库"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          1417.5694560022766,
+          -736.5292851091866
+        ],
+        [
+          1618.033859069089,
+          -696.6519576174013
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "kXtAX",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "前端页面"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          988.6187440636122,
+          -733.8348710894714
+        ],
+        [
+          1116.8728514020568,
+          -699.3463716371166
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "xXsJE",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "MQ"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          1228.9604746222108,
+          -825.2127462263829
+        ],
+        [
+          1357.2145819606553,
+          -790.7242467740281
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "pJDJK",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.49999999999999506
+        ],
+        "boundId": "kXtAX"
+      },
+      "texts": [
+        {
+          "text": {
+            "children": [
+              {
+                "text": "延迟消息"
+              }
+            ],
+            "type": "paragraph"
+          },
+          "position": 0.5393033250334345
+        }
+      ],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.49999999999999833
+        ],
+        "boundId": "xXsJE"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          957.9024242388587,
+          -830.6304625462078
+        ],
+        [
+          1034.962665202714,
+          -890.9853365878287
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "fxkaX",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.49999999999999833
+        ],
+        "boundId": "xXsJE"
+      },
+      "texts": [],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.5
+        ],
+        "boundId": "awjsh"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          1183.1554362870515,
+          -890.724246774028
+        ],
+        [
+          1242.9714275247297,
+          -795.0641974859666
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "eXDez",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.49999999999999506
+        ],
+        "boundId": "kXtAX"
+      },
+      "texts": [
+        {
+          "text": {
+            "children": [
+              {
+                "text": "写数据"
+              }
+            ],
+            "type": "paragraph"
+          },
+          "position": 0.09020571302849265
+        }
+      ],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.5
+        ],
+        "boundId": "bGJyp"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          957.9024242388587,
+          -830.6304625462078
+        ],
+        [
+          1236.5048338774131,
+          -710.9984800708517
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "hXAff",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "每30s本地查一下修改的内容"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          994.0075721030425,
+          -932.2182226776425
+        ],
+        [
+          1122.261679441487,
+          -890.1853639700851
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "JhmPD",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.5000000000000041
+        ],
+        "boundId": "hXAff"
+      },
+      "texts": [
+        {
+          "text": {
+            "children": [
+              {
+                "text": "删除"
+              }
+            ],
+            "type": "paragraph"
+          },
+          "position": 0.46761613860452206
+        }
+      ],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.5
+        ],
+        "boundId": "Psnbe"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          1142.2003431873795,
+          -902.3018754706322
+        ],
+        [
+          1419.7249872180482,
+          -908.229586314006
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "hiSsT",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          0.5,
+          1
+        ],
+        "boundId": "kXtAX"
+      },
+      "texts": [
+        {
+          "text": {
+            "children": [
+              {
+                "text": "读"
+              }
+            ],
+            "type": "paragraph"
+          },
+          "position": 0.31952606466029104
+        }
+      ],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0.5,
+          0
+        ],
+        "boundId": "Psnbe"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          1052.7457977328345,
+          -699.3463716371166
+        ],
+        [
+          919.1028623549596,
+          -667.3463716371166
+        ],
+        [
+          919.1028623549596,
+          -963.1404570697564
+        ],
+        [
+          1517.8016575356828,
+          -933.1404570697564
+        ]
+      ],
+      "strokeWidth": 2
     }
   ],
   "viewport": {
-    "zoom": 1.0375698324022347,
+    "zoom": 1.0110591900311527,
     "origination": [
-      -1258.1045106566119,
-      -881.2339552056342
+      -624.3878682532788,
+      -637.514730300398
     ]
   }
 }
