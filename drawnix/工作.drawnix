@@ -402,7 +402,39 @@
                                               "type": "paragraph"
                                             }
                                           },
-                                          "children": []
+                                          "children": [
+                                            {
+                                              "id": "HFZAZ",
+                                              "type": "mind_child",
+                                              "data": {
+                                                "topic": {
+                                                  "children": [
+                                                    {
+                                                      "text": "布隆过滤器"
+                                                    }
+                                                  ],
+                                                  "type": "paragraph"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "MGPzX",
+                                                  "type": "mind_child",
+                                                  "data": {
+                                                    "topic": {
+                                                      "children": [
+                                                        {
+                                                          "text": "可能在，或者绝对不在"
+                                                        }
+                                                      ],
+                                                      "type": "paragraph"
+                                                    }
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
@@ -1206,13 +1238,113 @@
         ]
       ],
       "strokeWidth": 2
+    },
+    {
+      "id": "wMmah",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "添加下载任务到后台"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          572.4148145495424,
+          -558.8604307524954
+        ],
+        [
+          786.1057992392894,
+          -494.37381388147924
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "ZWdzK",
+      "type": "arrow-line",
+      "shape": "elbow",
+      "source": {
+        "marker": "none",
+        "connection": [
+          1,
+          0.5
+        ],
+        "boundId": "wMmah"
+      },
+      "texts": [
+        {
+          "text": {
+            "children": [
+              {
+                "text": "表头，接口"
+              }
+            ],
+            "type": "paragraph"
+          },
+          "position": 0.4429968719477959
+        }
+      ],
+      "target": {
+        "marker": "arrow",
+        "connection": [
+          0,
+          0.5
+        ],
+        "boundId": "mzTSN"
+      },
+      "opacity": 1,
+      "points": [
+        [
+          786.1057992392894,
+          -526.6171223169873
+        ],
+        [
+          886.1057992392894,
+          -526.6171223169873
+        ]
+      ],
+      "strokeWidth": 2
+    },
+    {
+      "id": "mzTSN",
+      "type": "geometry",
+      "shape": "rectangle",
+      "angle": 0,
+      "opacity": 1,
+      "text": {
+        "children": [
+          {
+            "text": "任务表"
+          }
+        ],
+        "type": "paragraph",
+        "align": "center"
+      },
+      "points": [
+        [
+          1010.0273590571833,
+          -558.8604307524954
+        ],
+        [
+          1223.7183437469303,
+          -494.37381388147924
+        ]
+      ],
+      "strokeWidth": 2
     }
   ],
   "viewport": {
-    "zoom": 1.0110591900311527,
+    "zoom": 1.0544823608286227,
     "origination": [
-      -624.3878682532788,
-      -637.514730300398
+      -705.9376474215053,
+      -1294.766529162915
     ]
   }
 }
