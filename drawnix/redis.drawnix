@@ -228,7 +228,596 @@
                       "type": "paragraph"
                     }
                   },
-                  "children": []
+                  "children": [
+                    {
+                      "id": "DMKhJ",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "击穿"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "mHyDz",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "一个key缓存突然失效，大量请求打到数据库"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "HPhrn",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "1. 缓存永不失效，业务层主动更新缓存"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "htfyW",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "2. 缓存提前预热，避免在高峰期过期"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "pkrQE",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "穿透"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "hPFSB",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "数据在缓存和数据库中都不存在"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "jxXwM",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "1. 参数校验合法性"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "ZbeNS",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "2.缓存空值"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "cpEPc",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "3. 布隆过滤器"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "Ehnjy",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "雪崩"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": [
+                        {
+                          "id": "asYrm",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "大量key突然失效"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "mMbab",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "1. 设置随机过期时间"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "CwtYm",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "2. 多层次缓存"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "tkeNR",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "集群故障"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "KJriH",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "1. 高可用架构"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "MsJih",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "集群部署"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "id": "XBxrA",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "1.开放两个端口，一个用于处理请求，一个用于集群总线"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "abBfi",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "2. 采用hash槽的方法"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "NeSbB",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "使用CRC循环冗余校验，生成校验码，模16384。计算在哪个槽位上，每个节点管理一部分槽位"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "TpDNZ",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "为什么不使用一致性hash?"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "Apktx",
+                                              "type": "mind_child",
+                                              "data": {
+                                                "topic": {
+                                                  "children": [
+                                                    {
+                                                      "text": "1. 可以按槽位迁移，比一致性hash按key迁移效率高"
+                                                    }
+                                                  ],
+                                                  "type": "paragraph"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "XTxWC",
+                                                  "type": "mind_child",
+                                                  "data": {
+                                                    "topic": {
+                                                      "children": [
+                                                        {
+                                                          "text": "一致性hash必须要遍历所有的key，然后看哪些key是在这个节点上的"
+                                                        }
+                                                      ],
+                                                      "type": "paragraph"
+                                                    }
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "jjeeR",
+                                              "type": "mind_child",
+                                              "data": {
+                                                "topic": {
+                                                  "children": [
+                                                    {
+                                                      "text": "2. 均匀"
+                                                    }
+                                                  ],
+                                                  "type": "paragraph"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "rejiR",
+                                                  "type": "mind_child",
+                                                  "data": {
+                                                    "topic": {
+                                                      "children": [
+                                                        {
+                                                          "text": "CRC对随机key输出的校验码，是近似均匀的"
+                                                        }
+                                                      ],
+                                                      "type": "paragraph"
+                                                    }
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "id": "esiCP",
+                                              "type": "mind_child",
+                                              "data": {
+                                                "topic": {
+                                                  "children": [
+                                                    {
+                                                      "text": "3.容易运维 "
+                                                    }
+                                                  ],
+                                                  "type": "paragraph"
+                                                }
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "AGwwZ",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "为什么是16384？"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "PbsiZ",
+                                              "type": "mind_child",
+                                              "data": {
+                                                "topic": {
+                                                  "children": [
+                                                    {
+                                                      "text": "因为这样gossip协议的数据包是2KB,不大不小，效率最高"
+                                                    }
+                                                  ],
+                                                  "type": "paragraph"
+                                                }
+                                              },
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "WjdWj",
+                                      "type": "mind_child",
+                                      "data": {
+                                        "topic": {
+                                          "children": [
+                                            {
+                                              "text": "3.AP方案，不保证一致性"
+                                            }
+                                          ],
+                                          "type": "paragraph"
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "id": "eYiAk",
+                                          "type": "mind_child",
+                                          "data": {
+                                            "topic": {
+                                              "children": [
+                                                {
+                                                  "text": "使用Gossip协议"
+                                                }
+                                              ],
+                                              "type": "paragraph"
+                                            }
+                                          },
+                                          "children": [
+                                            {
+                                              "id": "pzGym",
+                                              "type": "mind_child",
+                                              "data": {
+                                                "topic": {
+                                                  "children": [
+                                                    {
+                                                      "text": "协议流程是什么？"
+                                                    }
+                                                  ],
+                                                  "type": "paragraph"
+                                                }
+                                              },
+                                              "children": [
+                                                {
+                                                  "id": "YZRhP",
+                                                  "type": "mind_child",
+                                                  "data": {
+                                                    "topic": {
+                                                      "children": [
+                                                        {
+                                                          "text": "1. 随机选告诉别的节点，我的数据是什么，最新的是什么？"
+                                                        }
+                                                      ],
+                                                      "type": "paragraph"
+                                                    }
+                                                  },
+                                                  "children": []
+                                                },
+                                                {
+                                                  "id": "rSPNn",
+                                                  "type": "mind_child",
+                                                  "data": {
+                                                    "topic": {
+                                                      "children": [
+                                                        {
+                                                          "text": "2. 接收到以后，看自己的版本哪个旧，再发请求要"
+                                                        }
+                                                      ],
+                                                      "type": "paragraph"
+                                                    }
+                                                  },
+                                                  "children": []
+                                                },
+                                                {
+                                                  "id": "mNfkE",
+                                                  "type": "mind_child",
+                                                  "data": {
+                                                    "topic": {
+                                                      "children": [
+                                                        {
+                                                          "text": "3. 在发生脑裂的情况下，部分数据会丢失"
+                                                        }
+                                                      ],
+                                                      "type": "paragraph"
+                                                    }
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "mTrZk",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "哨兵+主从"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "ewXFB",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "2. 熔断、限流、降级"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "zyaAd",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "3. 数据持久化"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "id": "DzCNM",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "AOF"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "id": "fTNrc",
+                                  "type": "mind_child",
+                                  "data": {
+                                    "topic": {
+                                      "children": [
+                                        {
+                                          "text": "RDB"
+                                        }
+                                      ],
+                                      "type": "paragraph"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "id": "dHDnz",
@@ -286,7 +875,98 @@
                               "type": "paragraph"
                             }
                           },
-                          "children": []
+                          "children": [
+                            {
+                              "id": "MDwyc",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "1. 当负载因子大于1或者小于百分之十的时候会扩容或者缩容"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "FrdKn",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "2. 此时dict 会再创建一个 dictTable，dict中有一个字段，rehashId,默认-1"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "FHfMc",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "3. 在执行请求的间隙，移动一个数据到新的table中去，rehashId++"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "WNGMx",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "4.同时有一个定时任务，会每次处理100个，或者1毫秒"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "nbQGM",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "5.新的数据只写入新的table，修改和查询，先查老的table，再查新的table"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "PHCRP",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "6.这样避免了，一次性迁移过多数据导致的卡顿。"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
                         }
                       ]
                     },
@@ -303,7 +983,54 @@
                           "type": "paragraph"
                         }
                       },
-                      "children": []
+                      "children": [
+                        {
+                          "id": "KSkWf",
+                          "type": "mind_child",
+                          "data": {
+                            "topic": {
+                              "children": [
+                                {
+                                  "text": "linux epoll函数"
+                                }
+                              ],
+                              "type": "paragraph"
+                            }
+                          },
+                          "children": [
+                            {
+                              "id": "DdmBQ",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "1. 事件机制，无需遍历所有的文件描述符"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
+                              "id": "CiAGZ",
+                              "type": "mind_child",
+                              "data": {
+                                "topic": {
+                                  "children": [
+                                    {
+                                      "text": "2.单线程监听所有的fd文件描述符"
+                                    }
+                                  ],
+                                  "type": "paragraph"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -390,8 +1117,8 @@
       "layout": "right",
       "points": [
         [
-          -732.6665649414062,
-          -219.49996948242188
+          -1748.1097385721332,
+          10.936218258186273
         ]
       ]
     },
@@ -9466,10 +10193,10 @@
     }
   ],
   "viewport": {
-    "zoom": 1.1816800109807404,
+    "zoom": 1.0574288541286903,
     "origination": [
-      643.9046883592164,
-      -668.5080518018622
+      -1476.7432875628583,
+      -311.74952454036577
     ]
   }
 }
