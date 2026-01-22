@@ -142,6 +142,37 @@
           ]
         },
         {
+          "id": "hazZb",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "功能"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "MtnEt",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "定时过期"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
           "id": "TcfkY",
           "type": "mind_child",
           "data": {
@@ -9435,10 +9466,10 @@
     }
   ],
   "viewport": {
-    "zoom": 1,
+    "zoom": 1.1816800109807404,
     "origination": [
-      -2431.3331756591797,
-      -1978.999755859375
+      643.9046883592164,
+      -668.5080518018622
     ]
   }
 }
